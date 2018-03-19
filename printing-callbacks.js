@@ -24,5 +24,10 @@ function printHTML (html) {
  console.log(html);
 };
 
-
 getHTML(requestOptions, printHTML)
+
+module.exports = {
+
+  getHTML: getHTML
+
+};
